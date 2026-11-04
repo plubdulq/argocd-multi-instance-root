@@ -7,7 +7,7 @@ spec:
   goTemplateOptions: ["missingkey=error"]
   generators:
     - git:
-        repoURL: https://github.com/YOUR_USER/YOUR_REPO.git
+        repoURL: https://github.com/plubdulq/argocd-instance-a.git
         revision: main
         directories:
           - path: apps/team-a/*
