@@ -1,0 +1,5 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+  # namespace-scoped install: no ClusterRole, so multiple instances can coexist
+  - https://raw.githubusercontent.com/argoproj/argo-cd/v2.13.0/manifests/namespace-install.yaml
