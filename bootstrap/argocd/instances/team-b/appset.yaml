@@ -19,7 +19,7 @@ spec:
     spec:
       project: default
       source:
-        repoURL: https://github.com/plubdulq/argocd-instance-b.git
+        repoURL: https://github.com/plubdulq/argocd-multi-instance-root.git
         targetRevision: main
         path: '{{.path.path}}'
       destination:
