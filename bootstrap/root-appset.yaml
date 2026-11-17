@@ -11,7 +11,7 @@ spec:
         repoURL: https://github.com/plubdulq/argocd-multi-instance-root.git
         revision: main
         directories:
-          - path: argocd/instances/*
+          - path: bootstrap/argocd/instances/*
   template:
     metadata:
       name: 'argocd-{{.path.basename}}'
