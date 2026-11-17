@@ -10,7 +10,7 @@ spec:
         repoURL: https://github.com/plubdulq/argocd-instance-a.git
         revision: main
         directories:
-          - path: apps/team-a/*
+          - path: base/*
   template:
     metadata:
       name: 'team-a-{{.path.basename}}'
