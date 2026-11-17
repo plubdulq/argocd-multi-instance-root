@@ -9,5 +9,5 @@ roleRef:
 subjects:
   - kind: ServiceAccount
     name: argocd-application-controller
-    namespace: argocd-apply
+    namespace: argocd-team-b
     
